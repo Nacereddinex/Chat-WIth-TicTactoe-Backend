@@ -15,7 +15,7 @@ const io = new Server(server, {
 });
 
 server.listen(3001,()=>{
-    console.log('SERVER IS DOING THE RUNS FOR THOSE BUNNS')
+    console.log('SERVER IS RUNNING')
 })
 
 app.get('/', (req, res) => {
